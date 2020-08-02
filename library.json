@@ -1,0 +1,25 @@
+{
+  "name": "ADS1018",
+  "keywords": "ADC, ADS, ADS1018",
+  "description": "An Arduino library for the SPI interface Texas Instruments ADS1018, 12-bit ADC.",
+  "authors":
+  [
+    {
+      "name": "Vishnu Easwaran E",
+      "email": "easwaranvishnu@gmail.com"
+    },
+    {
+      "name": "Ryan Wagoner",
+      "email": "rswagoner@gmail.com",
+      "maintainer": true
+    }    
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/rwagoner/ADS1018-Library"
+  },
+  "version": "0.1.0",
+  "frameworks": "arduino",
+  "platforms": "espressif"
+}

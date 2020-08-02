@@ -1,2 +1,3 @@
-# ADS1018-Library
-An arduino library for Texas Instruments ADS1018, 12-bit ADC.
+# ADS1018 Arduino Library
+
+An Arduino library for the SPI interface Texas Instruments ADS1018, 12-bit ADC.
