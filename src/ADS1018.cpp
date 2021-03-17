@@ -66,7 +66,7 @@ void ADS1018::begin() {
     pinMode(cs, OUTPUT);
     digitalWrite(cs, HIGH);
     SPI.begin();
-    configRegister.bits={RESERVED, VALID_CFG, INT_PULLUP, ADC_MODE, RATE_1600SPS, SINGLE_SHOT, FSR_2048, DIFF_0_1, START_NOW}; //Default values
+    configRegister.bits={RESERVED, VALID_CFG, PULLUP, ADC_MODE, RATE_1600SPS, SINGLE_SHOT, FSR_2048, DIFF_0_1, START_NOW}; //Default values
 }
 
 /*
