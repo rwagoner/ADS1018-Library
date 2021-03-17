@@ -136,7 +136,7 @@ class ADS1018 {
         const uint8_t TEMP_MODE    = 1;             ///< Internal temperature sensor reading mode
 
         // Used by "PULL_UP_EN" bit
-        const uint8_t INT_PULLUP   = 1;             ///< Internal pull-up resistor enabled for DOUT ***DEFAULT
+        const uint8_t PULLUP       = 1;             ///< Internal pull-up resistor enabled for DOUT ***DEFAULT
         const uint8_t NO_PULLUP    = 0;             ///< Internal pull-up resistor disabled
 
         // Used by "NOP" bit
